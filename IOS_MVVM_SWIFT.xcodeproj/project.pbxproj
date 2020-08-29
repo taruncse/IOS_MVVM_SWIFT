@@ -14,6 +14,7 @@
 		4F9B531D24FA878400C11BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9B531B24FA878400C11BF4 /* LaunchScreen.storyboard */; };
 		4F9B532824FAB65F00C11BF4 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B532724FAB65F00C11BF4 /* OrdersViewController.swift */; };
 		4F9B532A24FAB67900C11BF4 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B532924FAB67900C11BF4 /* NewOrderViewController.swift */; };
+		4F9B532D24FAD6B900C11BF4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B532C24FAD6B900C11BF4 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		4F9B531E24FA878400C11BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F9B532724FAB65F00C11BF4 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		4F9B532924FAB67900C11BF4 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
+		4F9B532C24FAD6B900C11BF4 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4F9B530F24FA878300C11BF4 /* IOS_MVVM_SWIFT */ = {
 			isa = PBXGroup;
 			children = (
+				4F9B532B24FAD68000C11BF4 /* Services */,
 				4F9B532424FAB5C700C11BF4 /* Controllers */,
 				4F9B531024FA878300C11BF4 /* AppDelegate.swift */,
 				4F9B531224FA878300C11BF4 /* SceneDelegate.swift */,
@@ -76,6 +79,14 @@
 				4F9B532924FAB67900C11BF4 /* NewOrderViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4F9B532B24FAD68000C11BF4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4F9B532C24FAD6B900C11BF4 /* WebService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				4F9B532A24FAB67900C11BF4 /* NewOrderViewController.swift in Sources */,
 				4F9B531124FA878300C11BF4 /* AppDelegate.swift in Sources */,
 				4F9B531324FA878300C11BF4 /* SceneDelegate.swift in Sources */,
+				4F9B532D24FAD6B900C11BF4 /* WebService.swift in Sources */,
 				4F9B532824FAB65F00C11BF4 /* OrdersViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
