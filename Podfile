@@ -9,6 +9,7 @@ target 'IOS_MVVM_SWIFT' do
  
  pod 'Firebase/Core'
  pod 'Firebase/Database'
-
+ pod 'CodableFirebase'
+ pod 'ProgressHUD'
 
 end

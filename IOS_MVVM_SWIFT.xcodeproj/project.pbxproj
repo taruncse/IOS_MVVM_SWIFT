@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,16 @@
 		4F9B532824FAB65F00C11BF4 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B532724FAB65F00C11BF4 /* OrdersViewController.swift */; };
 		4F9B532A24FAB67900C11BF4 /* NewOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B532924FAB67900C11BF4 /* NewOrderViewController.swift */; };
 		4F9B532D24FAD6B900C11BF4 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9B532C24FAD6B900C11BF4 /* WebService.swift */; };
+		4FA3426824FB7705000586FD /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA3426724FB7705000586FD /* Order.swift */; };
+		4FC1798E24FBEB1300E598F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FC1798D24FBEB1300E598F9 /* GoogleService-Info.plist */; };
+		4FC1799524FC0C1100E598F9 /* NewOrderViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC1799424FC0C1100E598F9 /* NewOrderViewModel.swift */; };
+		4FE7715624FCB21B00DCF892 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE7715524FCB21B00DCF892 /* FirebaseService.swift */; };
+		DDD5499D8325FCA54884EC10 /* Pods_IOS_MVVM_SWIFT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9881FE7A76ADFBFAF0222C67 /* Pods_IOS_MVVM_SWIFT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27F5C244C476281314051CF9 /* Pods-IOS_MVVM_SWIFT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_MVVM_SWIFT.debug.xcconfig"; path = "Target Support Files/Pods-IOS_MVVM_SWIFT/Pods-IOS_MVVM_SWIFT.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9D927D555F9E78ADA6E380 /* Pods-IOS_MVVM_SWIFT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IOS_MVVM_SWIFT.release.xcconfig"; path = "Target Support Files/Pods-IOS_MVVM_SWIFT/Pods-IOS_MVVM_SWIFT.release.xcconfig"; sourceTree = "<group>"; };
 		4F9B530D24FA878300C11BF4 /* IOS_MVVM_SWIFT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_MVVM_SWIFT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9B531024FA878300C11BF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F9B531224FA878300C11BF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +35,11 @@
 		4F9B532724FAB65F00C11BF4 /* OrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
 		4F9B532924FAB67900C11BF4 /* NewOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderViewController.swift; sourceTree = "<group>"; };
 		4F9B532C24FAD6B900C11BF4 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		4FA3426724FB7705000586FD /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4FC1798D24FBEB1300E598F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FC1799424FC0C1100E598F9 /* NewOrderViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewOrderViewModel.swift; sourceTree = "<group>"; };
+		4FE7715524FCB21B00DCF892 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		9881FE7A76ADFBFAF0222C67 /* Pods_IOS_MVVM_SWIFT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOS_MVVM_SWIFT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDD5499D8325FCA54884EC10 /* Pods_IOS_MVVM_SWIFT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BC3B743EB569157B2CCF3F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27F5C244C476281314051CF9 /* Pods-IOS_MVVM_SWIFT.debug.xcconfig */,
+				4E9D927D555F9E78ADA6E380 /* Pods-IOS_MVVM_SWIFT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		27B779ED169BC59C20C02C5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9881FE7A76ADFBFAF0222C67 /* Pods_IOS_MVVM_SWIFT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4F9B530424FA878300C11BF4 = {
 			isa = PBXGroup;
 			children = (
 				4F9B530F24FA878300C11BF4 /* IOS_MVVM_SWIFT */,
 				4F9B530E24FA878300C11BF4 /* Products */,
+				1BC3B743EB569157B2CCF3F7 /* Pods */,
+				27B779ED169BC59C20C02C5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +92,8 @@
 		4F9B530F24FA878300C11BF4 /* IOS_MVVM_SWIFT */ = {
 			isa = PBXGroup;
 			children = (
+				4FC1798F24FBF19700E598F9 /* View Models */,
+				4FA3426624FB76E6000586FD /* Models */,
 				4F9B532B24FAD68000C11BF4 /* Services */,
 				4F9B532424FAB5C700C11BF4 /* Controllers */,
 				4F9B531024FA878300C11BF4 /* AppDelegate.swift */,
@@ -67,6 +101,7 @@
 				4F9B531624FA878300C11BF4 /* Main.storyboard */,
 				4F9B531924FA878400C11BF4 /* Assets.xcassets */,
 				4F9B531B24FA878400C11BF4 /* LaunchScreen.storyboard */,
+				4FC1798D24FBEB1300E598F9 /* GoogleService-Info.plist */,
 				4F9B531E24FA878400C11BF4 /* Info.plist */,
 			);
 			path = IOS_MVVM_SWIFT;
@@ -85,8 +120,25 @@
 			isa = PBXGroup;
 			children = (
 				4F9B532C24FAD6B900C11BF4 /* WebService.swift */,
+				4FE7715524FCB21B00DCF892 /* FirebaseService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		4FA3426624FB76E6000586FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FA3426724FB7705000586FD /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4FC1798F24FBF19700E598F9 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				4FC1799424FC0C1100E598F9 /* NewOrderViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F9B532124FA878400C11BF4 /* Build configuration list for PBXNativeTarget "IOS_MVVM_SWIFT" */;
 			buildPhases = (
+				A9348DD0EEE91A46629BDFDE /* [CP] Check Pods Manifest.lock */,
 				4F9B530924FA878300C11BF4 /* Sources */,
 				4F9B530A24FA878300C11BF4 /* Frameworks */,
 				4F9B530B24FA878300C11BF4 /* Resources */,
+				41A7FB0EE0AF1299EA3BAF32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F9B531D24FA878400C11BF4 /* LaunchScreen.storyboard in Resources */,
+				4FC1798E24FBEB1300E598F9 /* GoogleService-Info.plist in Resources */,
 				4F9B531A24FA878400C11BF4 /* Assets.xcassets in Resources */,
 				4F9B531824FA878300C11BF4 /* Main.storyboard in Resources */,
 			);
@@ -155,13 +210,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41A7FB0EE0AF1299EA3BAF32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOS_MVVM_SWIFT/Pods-IOS_MVVM_SWIFT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IOS_MVVM_SWIFT/Pods-IOS_MVVM_SWIFT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IOS_MVVM_SWIFT/Pods-IOS_MVVM_SWIFT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9348DD0EEE91A46629BDFDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IOS_MVVM_SWIFT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F9B530924FA878300C11BF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FA3426824FB7705000586FD /* Order.swift in Sources */,
 				4F9B532A24FAB67900C11BF4 /* NewOrderViewController.swift in Sources */,
+				4FE7715624FCB21B00DCF892 /* FirebaseService.swift in Sources */,
 				4F9B531124FA878300C11BF4 /* AppDelegate.swift in Sources */,
+				4FC1799524FC0C1100E598F9 /* NewOrderViewModel.swift in Sources */,
 				4F9B531324FA878300C11BF4 /* SceneDelegate.swift in Sources */,
 				4F9B532D24FAD6B900C11BF4 /* WebService.swift in Sources */,
 				4F9B532824FAB65F00C11BF4 /* OrdersViewController.swift in Sources */,
@@ -306,6 +406,7 @@
 		};
 		4F9B532224FA878400C11BF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F5C244C476281314051CF9 /* Pods-IOS_MVVM_SWIFT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -314,7 +415,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tkb.IOS-MVVM-SWIFT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkb.mvvm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -323,6 +424,7 @@
 		};
 		4F9B532324FA878400C11BF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9D927D555F9E78ADA6E380 /* Pods-IOS_MVVM_SWIFT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -331,7 +433,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.tkb.IOS-MVVM-SWIFT";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tkb.mvvm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
